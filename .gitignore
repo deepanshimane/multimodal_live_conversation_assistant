@@ -1,0 +1,30 @@
+# secrets - NEVER commit these
+.env
+*.pem
+*.key
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# node
+node_modules/
+dist/
+.vite/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# private data (consent recordings, voice samples, raw voices)
+backend/data/
+eval/data/clean/*
+!eval/data/clean/.gitkeep
+
+# cache of paid API calls (can be big; each person regenerates)
+eval/.cache/

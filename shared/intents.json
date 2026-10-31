@@ -1,0 +1,24 @@
+{
+  "_note": "The ONLY allowed intent ids. The LLM must pick from this list, the test dataset uses it, and evaluation compares against it. Changing it needs all 3 people to agree.",
+  "intents": [
+    {"id": "request_water",    "description": "Wants water / is thirsty",            "example_en": "I want some water.",          "example_hi": "मुझे पानी चाहिए।"},
+    {"id": "request_food",     "description": "Wants food / is hungry",              "example_en": "I am hungry.",                "example_hi": "मुझे भूख लगी है।"},
+    {"id": "request_medicine", "description": "Needs medicine / tablets",            "example_en": "It is time for my medicine.", "example_hi": "मेरी दवाई का समय हो गया।"},
+    {"id": "pain",             "description": "Is in pain / uncomfortable",          "example_en": "I am in pain.",               "example_hi": "मुझे दर्द हो रहा है।"},
+    {"id": "toilet",           "description": "Needs the toilet / washroom",         "example_en": "I need to use the toilet.",   "example_hi": "मुझे washroom जाना है।"},
+    {"id": "help_emergency",   "description": "Urgent help needed right now",        "example_en": "Please help me now!",         "example_hi": "जल्दी मदद करो!"},
+    {"id": "call_person",      "description": "Wants someone called / brought",      "example_en": "Please call my son.",         "example_hi": "मेरे बेटे को बुलाओ।"},
+    {"id": "tired_rest",       "description": "Tired, wants to rest / sleep",        "example_en": "I am tired. I want to rest.", "example_hi": "मैं थक गया हूँ, आराम करना है।"},
+    {"id": "temperature",      "description": "Feels too hot or too cold",           "example_en": "I am feeling cold.",          "example_hi": "मुझे ठंड लग रही है।"},
+    {"id": "request_object",   "description": "Wants a specific object handed over", "example_en": "Please give me my phone.",    "example_hi": "मेरा फोन दो।"},
+    {"id": "entertainment",    "description": "TV / music / phone / reading",        "example_en": "Please turn on the TV.",      "example_hi": "टीवी चालू करो।"},
+    {"id": "yes",              "description": "Agrees / says yes",                   "example_en": "Yes.",                        "example_hi": "हाँ।"},
+    {"id": "no",               "description": "Disagrees / says no",                 "example_en": "No.",                         "example_hi": "नहीं।"},
+    {"id": "thanks",           "description": "Says thank you",                      "example_en": "Thank you.",                  "example_hi": "धन्यवाद।"},
+    {"id": "greeting",         "description": "Says hello / goodbye",                "example_en": "Hello, how are you?",         "example_hi": "नमस्ते, आप कैसे हैं?"},
+    {"id": "repeat_please",    "description": "Asks other person to repeat",         "example_en": "Please say that again.",      "example_hi": "कृपया दोबारा बोलिए।"},
+    {"id": "wait",             "description": "Asks other person to wait / slow down","example_en": "Please wait a moment.",      "example_hi": "ज़रा रुकिए।"},
+    {"id": "unclear_retry",    "description": "System could not tell; ask patient to try again", "example_en": "Let me try again.", "example_hi": "मैं फिर से कोशिश करता हूँ।"},
+    {"id": "other",            "description": "Anything not listed above",           "example_en": "(free text)",                 "example_hi": "(free text)"}
+  ]
+}

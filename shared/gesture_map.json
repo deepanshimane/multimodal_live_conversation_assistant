@@ -1,0 +1,23 @@
+{
+  "_note": "Maps MediaPipe GestureRecognizer names to a meaning the LLM understands. Person A uses this in the frontend. Person C uses the same meanings in prompts and simulated data. Patients can customise later.",
+  "mediapipe_to_meaning": {
+    "Thumb_Up":    "yes",
+    "Thumb_Down":  "no",
+    "Open_Palm":   "stop_wait",
+    "Closed_Fist": "pain_help",
+    "Pointing_Up": "point",
+    "Victory":     "two_more",
+    "ILoveYou":    "thanks_love",
+    "None":        "none"
+  },
+  "meaning_help": {
+    "yes": "Agree / OK",
+    "no": "Disagree / no",
+    "stop_wait": "Stop or wait",
+    "pain_help": "Pain or needs help",
+    "point": "Pointing at something (see direction: left/right/up/down)",
+    "two_more": "Two of something / more",
+    "thanks_love": "Thanks / affection",
+    "none": "No gesture"
+  }
+}

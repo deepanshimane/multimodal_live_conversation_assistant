@@ -1,0 +1,21 @@
+# One shared Python environment for backend + fusion + eval.
+# Install with:  pip install -r requirements.txt
+fastapi
+uvicorn[standard]
+python-multipart
+httpx
+python-dotenv
+pydantic
+elevenlabs
+anthropic
+google-genai
+jiwer
+librosa
+soundfile
+pydub
+numpy
+pandas
+matplotlib
+tqdm
+pytest
+# NOTE: pydub needs ffmpeg installed on your computer (https://ffmpeg.org/download.html)
